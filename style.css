@@ -1,0 +1,18 @@
+body{
+    background-image:url("img/Harry\ Potter\ fondo.jpg") ;
+}
+
+
+.bar_menu { 
+display: flex;
+background-color: black;
+background:rgba(rgba(24, 16, 16, 0.918));
+justify-content: flex-start;
+
+}
+
+ 
+ .menu_options{
+justify-content: space-between;
+ }
+
