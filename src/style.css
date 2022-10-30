@@ -1,0 +1,66 @@
+body {
+    background-image:url(img/fondo\ colegio.jpg);
+    justify-items: center;
+    display: flexbox;
+}
+
+
+.inicio {
+    background-color: rgba(0, 0, 0, 0.897);
+    background-size: cover;
+    
+
+}
+.titulo{
+    justify-content: center;
+}
+
+/* .container-menu {
+    box-sizing: border-box;
+    height: 15px; */
+
+
+
+.menu{
+background-color: #6d3812c4;
+height: 45%;
+
+}
+
+.portada img {
+    justify-content: space-around;
+    width: 80px;
+    height: 80px;
+
+
+}
+
+.portada h2 {
+    font-size: medium;
+
+
+}
+
+.portada{
+    justify-items: center;
+}
+/* .bar_menu {
+    display: flex;
+    background-color: rgb(248, 240, 240);
+    justify-content: flex-start;
+
+}
+
+.menu_options {
+    justify-content: space-between;
+    font-family: Arial;
+    font-size: small;
+
+}
+
+.portada {
+    
+    justify-content: space-around;
+    
+
+} */

@@ -16170,6 +16170,7 @@ export default {
   books: [
     {
       "id": 1,
+      "poster":"https://images.cdn2.buscalibre.com/fit-in/360x360/e3/bc/e3bcd85377567759874a0664f894a67b.jpg",
       "title": "Harry Potter and the Sorcerer's Stone",
       "releaseDay": "June 26, 1997",
       "author": "J. K. Rowling",
@@ -16177,6 +16178,7 @@ export default {
     },
     {
       "id": 2,
+      "poster":"https://images.cdn3.buscalibre.com/fit-in/360x360/be/e4/bee4dccd3c7c4bb402e5b3265140af34.jpg ",
       "title": "Harry Potter and the chamber of secrets",
       "releaseDay": "July 2, 1998",
       "author": "J. K. Rowling",
@@ -16184,6 +16186,7 @@ export default {
     },
     {
       "id": 3,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_waX5cJqP3wL8f-ptLSBhp95JCboDuVDnw&usqp=CAU.jpg",
       "title": "Harry Potter and the Prisoner of Azkaban",
       "releseDay": "July 8, 1999",
       "author": "J. K. Rowling",
@@ -16191,6 +16194,7 @@ export default {
     },
     {
       "id": 4,
+      "poster": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-aowZeSCqvHNw8pDm1gsOg9BMs31-LgEorKHZfHt08kQp5ZkHWDSm-YZsmuOZ1_2ECfA&usqp=CAU  ",
       "title": "Harry Potter and the Goblet of Fire",
       "releaseDay": "July 8, 2000",
       "author": "J. K. Rowling",
@@ -16198,6 +16202,7 @@ export default {
     },
     {
       "id": 5,
+      "poster": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDlOsICHi-MfyuFXZGlfpmHKC0Z7zHHVXkcw&usqp=CAU",
       "title": "Harry Potter and the Order of the Phoenix",
       "releaseDay": "June 21, 2003",
       "author": "J. K. Rowling",
@@ -16205,6 +16210,7 @@ export default {
     },
     {
       "id": 6,
+      "poster": " https://www.bigw.com.au/medias/sys_master/images/images/h79/h8c/10670481997854.jpg",
       "title": "Harry Potter and the Half-Blood Prince",
       "releaseDay": "July 16, 2005",
       "author": "J. K. Rowling",
@@ -16212,6 +16218,7 @@ export default {
     },
     {
       "id": 7,
+      "poster":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Cv5ye-8jsD60w12UceRaTqxhVd51oS4w-ERhIdq5W-xAmdyAUM5_R3WQK14ntaTrwCs&usqp=CAU",
       "title": "Harry Potter and the Deathly Hallows",
       "releaseDay": "July 21, 2007",
       "author": "J. K. Rowling",
@@ -16219,6 +16226,7 @@ export default {
     },
     {
       "id": 8,
+      "poster":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlC2ReCfyyar6eq5pCbi-x1VKrOkTjzX194g&usqp=CAU",
       "title": "Harry Potter and the Cursed Child",
       "releaseDay": "July 30, 2016",
       "author": "J. K. Rowling",

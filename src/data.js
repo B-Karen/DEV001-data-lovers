@@ -1,9 +1,13 @@
 // estas funciones son de ejemplo
 
-export const example = () => {
-  return 'example';
-};
+//export const mostrarLibros = (data) => {
+//   const book = data.title
+//   const allBooks= book.filter(checkBooks)
+//    function checkBooks(book){ 
+//   return (allBooks == book);
 
-export const anotherExample = () => {
-  return 'OMG';
-};
+// }}
+
+//  export const anotherExample = () => {
+//    return 'OMG';
+//  };
