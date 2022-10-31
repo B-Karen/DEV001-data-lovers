@@ -1,23 +1,28 @@
 import data from './data/harrypotter/data.js';
 // Mostar saga de los libros
-const saga = data.books
+
+//import{filterBook} from './data.js'
 //const libros =  document.getElementById("book")
 
 
- const show =(saga)=>{
-  saga.forEach(books => {
-    document.getElementById("book").innerHTML+=
+
+ const saga = data.books
+//console.log(filtro) 
+
+  const show =(saga)=>{
+   saga.forEach(books => {
+   document.getElementById("book").innerHTML+=
     `<div class="portada" 
-       <h2> ${books.title}<h2>
-       <img src="${books.poster}" alt=""
-       <p ${books.author}<p>
-       </div>`
+        <h2> ${books.title}<h2>
+        <img src="${books.poster}" alt=""
+      <p ${books.author}<p>
+        </div>`
     
-  })
-}
+   })
+  }
   
-         
-show(saga);
+ show(saga);
+
 // declaras una variable
 
 //  saga.forEach(title => (title.title) )

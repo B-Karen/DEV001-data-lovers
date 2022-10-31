@@ -1,12 +1,12 @@
 // estas funciones son de ejemplo
 
-//export const mostrarLibros = (data) => {
-//   const book = data.title
-//   const allBooks= book.filter(checkBooks)
-//    function checkBooks(book){ 
-//   return (allBooks == book);
 
-// }}
+export const filterBook = (data,libro) => {
+    const libroid=libro
+    const filtro = data.filter(data=> data.libro== libroid)
+    return filtro
+
+}
 
 //  export const anotherExample = () => {
 //    return 'OMG';
