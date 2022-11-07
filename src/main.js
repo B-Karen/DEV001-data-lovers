@@ -11,17 +11,29 @@ import data from './data/harrypotter/data.js';
 
   const show =(saga)=>{
    saga.forEach(books => {
-   document.getElementById("book").innerHTML+=
-    `<div class="portada" 
+    document.getElementById("libro").innerHTML+=
+    `<div class="portada" >
+        <img src="${books.poster}" alt="">
+        <div class="letras">
         <h2> ${books.title}<h2>
-        <img src="${books.poster}" alt=""
-      <p ${books.author}<p>
+        <p> ${books.releaseDay}<p>
+        </div>
+        <div class="boton">
+        <button id="b1"> View More </button>
+      </div>
         </div>`
     
    })
   }
   
  show(saga);
+ document.getElementById("b1").addEventListener("click", ()=>  {  
+  
+     }
+  
+  )
+
+
 
 // declaras una variable
 
