@@ -16188,7 +16188,7 @@ export default {
       "id": 3,
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_waX5cJqP3wL8f-ptLSBhp95JCboDuVDnw&usqp=CAU.jpg",
       "title": "Harry Potter and the Prisoner of Azkaban",
-      "releseDay": "July 8, 1999",
+      "releaseDay": "July 8, 1999",
       "author": "J. K. Rowling",
       "description": "Harry's third year of studies at Hogwarts is threatened by Sirius Black's escape from Azkaban prison. Apparently, it is a dangerous wizard who was an accomplice of Lord Voldemort and who will try to take revenge on Harry Potter."
     },

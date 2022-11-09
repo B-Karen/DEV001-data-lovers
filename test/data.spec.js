@@ -1,23 +1,31 @@
-import { example, anotherExample } from '../src/data.js';
+import { filterCasas } from '../src/data.js';
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
+describe('filterCasas', () => {
+  const personajes = [
+    {
+      "id": 1,
+      "name": "Euan Abercrombie",
+      "house": "Gryffindor",
+      
+    },
+    {
+      "id": 2,
+      "name": "Stewart Ackerley",
+      "house": "Ravenclaw",
+    },
+    {
+      "id": 3,
+      "name": "African prince",
+      "house": null,
+      
+    }];
 
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it('returns ` personajes que pertenecen a Casa Gryffindor`', () => {
+    expect(filterCasas( personajes,"Gryffindor")).toEqual([{"id": 1,
+    "name": "Euan Abercrombie",
+    "house": "Gryffindor",
+    }]);
   });
 });

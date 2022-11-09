@@ -1,11 +1,11 @@
 import data from './data/harrypotter/data.js';
-// Mostar saga de los libros
 
-//import{filterBook} from './data.js'
+
+//import{filterCasas} from './data.js'
 //const libros =  document.getElementById("book")
 
 
-
+// Mostar saga de los libros
  const saga = data.books
 //console.log(filtro) 
 
@@ -15,11 +15,11 @@ import data from './data/harrypotter/data.js';
     `<div class="portada" >
         <img src="${books.poster}" alt="">
         <div class="letras">
-        <h2> ${books.title}<h2>
-        <p> ${books.releaseDay}<p>
+        <h2> ${books.title}</h2>
+        <p> ${books.releaseDay}</p>
         </div>
         <div class="boton">
-        <button id="b1"> View More </button>
+        <button class="click" id="b1"> View More </button>
       </div>
         </div>`
     
@@ -27,7 +27,13 @@ import data from './data/harrypotter/data.js';
   }
   
  show(saga);
- document.getElementById("b1").addEventListener("click", ()=>  {  
+
+ 
+ document.getElementById("characters").addEventListener("click", ()=>  {  
+  const personajes= data.characters;
+   name.innerHTML+=
+ `<div class"personaje">
+ <h2>${personajes.name}</h2></div>`
   
      }
   
