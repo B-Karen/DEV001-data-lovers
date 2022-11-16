@@ -1,6 +1,156 @@
 export default {
   characters: [
     {
+      "id": 326,
+      "name": "Harry Potter",
+      "birth": "31 July, 1980",
+      "death": null,
+      "species": "Human",
+      "ancestry": "Half-blood",
+      "gender": "Male",
+      "hair_color": "Jet-black",
+      "eye_color": "Bottle green",
+      "wand": "11\", Holly, phoenix feather",
+      "patronus": "Stag",
+      "house": "Gryffindor",
+      "associated_groups": [
+        "Potter family",
+        "Weasley family",
+        "Albus Dumbledore",
+        "Dumbledore's Army",
+        "Order of the Phoenix",
+        "Hogwarts School of Witchcraft and Wizardry",
+        "Gryffindor",
+        "Gryffindor Quidditch team",
+        "Slug Club",
+        "British Ministry of Magic",
+        "Auror Office",
+        "Department of Magical Law Enforcement",
+        "S.P.E.W."
+      ],
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+    },
+
+    {
+      "id": 587,
+      "name": "Hermione Granger",
+      "birth": "19 September, 1979",
+      "death": null,
+      "species": "Human",
+      "ancestry": "Muggle-born",
+      "gender": "Female",
+      "hair_color": "Brown",
+      "eye_color": "Brown",
+      "wand": "10¾\", vine wood, dragon heartstring",
+      "patronus": "Otter",
+      "house": "Gryffindor",
+      "associated_groups": [
+        "Granger family",
+        "Weasley family",
+        "Potter family",
+        "Hogwarts School of Witchcraft and Wizardry",
+        "Gryffindor",
+        "Slug Club",
+        "S.P.E.W.",
+        "Dumbledore's Army",
+        "Order of the Phoenix",
+        "British Ministry of Magic",
+        "Department for the Regulation and Control of Magical Creatures",
+        "Department of Magical Law Enforcement"
+      ],
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+    },
+
+    {
+      "id": 476,
+      "name": "Ronald Weasley",
+      "birth": "1 March, 1980",
+      "death": null,
+      "species": "Human",
+      "ancestry": "Pure-blood",
+      "gender": "Male",
+      "hair_color": "Red",
+      "eye_color": "Blue",
+      "wand": "12\", Ash, unicorn tail hair",
+      "patronus": "Jack Russell terrier",
+      "house": "Gryffindor",
+      "associated_groups": [
+        "Weasley family",
+        "Granger family",
+        "Prewett family",
+        "Potter family",
+        "Dumbledore's Army",
+        "Order of the Phoenix",
+        "British Ministry of Magic",
+        "Auror Department",
+        "Hogwarts School of Witchcraft and Wizardry",
+        "Gryffindor",
+        "Gryffindor Quidditch team",
+        "S.P.E.W.",
+        "Weasleys' Wizard Wheezes",
+        "Chudley Cannons"
+      ],
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": 756,
+      "name": "Albus Dumbledore",
+      "birth": "Late August 1881",
+      "death": "30 June, 1997 (aged 115)",
+      "species": "Human",
+      "ancestry": "Half-blood",
+      "gender": "Male",
+      "hair_color": "Silver, formerly auburn",
+      "eye_color": "Blue",
+      "wand": "Unknown length, wood and core (formerly)",
+      "patronus": "Phoenix",
+      "house": "Gryffindor",
+      "associated_groups": [
+        "Order of Merlin",
+        "Order of the Phoenix",
+        "Dumbledore's Army",
+        "Harry Potter",
+        "Hogwarts School of Witchcraft and Wizardry",
+        "Gryffindor",
+        "Transfiguration department",
+        "British Ministry of Magic",
+        "Council of Magical Law",
+        "Wizengamot",
+        "International Confederation of Wizards",
+        "Dumbledore family"
+      ],
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+    },
+
+    {
+      "id": 382,
+      "name": "Severus Snape",
+      "birth": "9 January 1960",
+      "death": "2 May 1998 (aged 38)",
+      "species": "Human",
+      "ancestry": "Half-blood",
+      "gender": "Male",
+      "hair_color": "Black",
+      "eye_color": "Black",
+      "wand": "Unknown length, wood and core",
+      "patronus": "Doe",
+      "house": "Slytherin",
+      "associated_groups": [
+        "Snape family",
+        "Prince family",
+        "Lily Potter",
+        "Harry Potter",
+        "Albus Dumbledore",
+        "Order of the Phoenix",
+        "Hogwarts School of Witchcraft and Wizardry",
+        "Slytherin",
+        "Lord Voldemort (formerly)",
+        "Death Eaters (defected)"
+      ],
+      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
+    },
+
+    {
       "id": 1,
       "name": "Euan Abercrombie",
       "birth": "between 1 September 1983 and 31 August 1984",
@@ -5460,36 +5610,7 @@ export default {
       ],
       "books_featured_in": [1, 5, 7]
     },
-    {
-      "id": 326,
-      "name": "Harry Potter",
-      "birth": "31 July, 1980",
-      "death": null,
-      "species": "Human",
-      "ancestry": "Half-blood",
-      "gender": "Male",
-      "hair_color": "Jet-black",
-      "eye_color": "Bottle green",
-      "wand": "11\", Holly, phoenix feather",
-      "patronus": "Stag",
-      "house": "Gryffindor",
-      "associated_groups": [
-        "Potter family",
-        "Weasley family",
-        "Albus Dumbledore",
-        "Dumbledore's Army",
-        "Order of the Phoenix",
-        "Hogwarts School of Witchcraft and Wizardry",
-        "Gryffindor",
-        "Gryffindor Quidditch team",
-        "Slug Club",
-        "British Ministry of Magic",
-        "Auror Office",
-        "Department of Magical Law Enforcement",
-        "S.P.E.W."
-      ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
-    },
+   
     {
       "id": 327,
       "name": "James Potter I",
@@ -6427,33 +6548,7 @@ export default {
       ],
       "books_featured_in": [5, 6, 7]
     },
-    {
-      "id": 382,
-      "name": "Severus Snape",
-      "birth": "9 January 1960",
-      "death": "2 May 1998 (aged 38)",
-      "species": "Human",
-      "ancestry": "Half-blood",
-      "gender": "Male",
-      "hair_color": "Black",
-      "eye_color": "Black",
-      "wand": "Unknown length, wood and core",
-      "patronus": "Doe",
-      "house": "Slytherin",
-      "associated_groups": [
-        "Snape family",
-        "Prince family",
-        "Lily Potter",
-        "Harry Potter",
-        "Albus Dumbledore",
-        "Order of the Phoenix",
-        "Hogwarts School of Witchcraft and Wizardry",
-        "Slytherin",
-        "Lord Voldemort (formerly)",
-        "Death Eaters (defected)"
-      ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
-    },
+   
     {
       "id": 383,
       "name": "Tobias Snape",
@@ -7378,37 +7473,7 @@ export default {
       ],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
-    {
-      "id": 476,
-      "name": "Ronald Weasley",
-      "birth": "1 March, 1980",
-      "death": null,
-      "species": "Human",
-      "ancestry": "Pure-blood",
-      "gender": "Male",
-      "hair_color": "Red",
-      "eye_color": "Blue",
-      "wand": "12\", Ash, unicorn tail hair",
-      "patronus": "Jack Russell terrier",
-      "house": "Gryffindor",
-      "associated_groups": [
-        "Weasley family",
-        "Granger family",
-        "Prewett family",
-        "Potter family",
-        "Dumbledore's Army",
-        "Order of the Phoenix",
-        "British Ministry of Magic",
-        "Auror Department",
-        "Hogwarts School of Witchcraft and Wizardry",
-        "Gryffindor",
-        "Gryffindor Quidditch team",
-        "S.P.E.W.",
-        "Weasleys' Wizard Wheezes",
-        "Chudley Cannons"
-      ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
-    },
+   
     {
       "id": 477,
       "name": "Bill Weasley",
@@ -9181,35 +9246,7 @@ export default {
       "associated_groups": ["Death Eaters (most likely)"],
       "books_featured_in": [5]
     },
-    {
-      "id": 587,
-      "name": "Hermione Granger",
-      "birth": "19 September, 1979",
-      "death": null,
-      "species": "Human",
-      "ancestry": "Muggle-born",
-      "gender": "Female",
-      "hair_color": "Brown",
-      "eye_color": "Brown",
-      "wand": "10¾\", vine wood, dragon heartstring",
-      "patronus": "Otter",
-      "house": "Gryffindor",
-      "associated_groups": [
-        "Granger family",
-        "Weasley family",
-        "Potter family",
-        "Hogwarts School of Witchcraft and Wizardry",
-        "Gryffindor",
-        "Slug Club",
-        "S.P.E.W.",
-        "Dumbledore's Army",
-        "Order of the Phoenix",
-        "British Ministry of Magic",
-        "Department for the Regulation and Control of Magical Creatures",
-        "Department of Magical Law Enforcement"
-      ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
-    },
+
     {
       "id": 588,
       "name": "Hermione Granger's mother",
@@ -11986,35 +12023,7 @@ export default {
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Hufflepuff"],
       "books_featured_in": [5]
     },
-    {
-      "id": 756,
-      "name": "Albus Dumbledore",
-      "birth": "Late August 1881",
-      "death": "30 June, 1997 (aged 115)",
-      "species": "Human",
-      "ancestry": "Half-blood",
-      "gender": "Male",
-      "hair_color": "Silver, formerly auburn",
-      "eye_color": "Blue",
-      "wand": "Unknown length, wood and core (formerly)",
-      "patronus": "Phoenix",
-      "house": "Gryffindor",
-      "associated_groups": [
-        "Order of Merlin",
-        "Order of the Phoenix",
-        "Dumbledore's Army",
-        "Harry Potter",
-        "Hogwarts School of Witchcraft and Wizardry",
-        "Gryffindor",
-        "Transfiguration department",
-        "British Ministry of Magic",
-        "Council of Magical Law",
-        "Wizengamot",
-        "International Confederation of Wizards",
-        "Dumbledore family"
-      ],
-      "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
-    }
+    
   ],
   funFacts: [
     {
@@ -16210,7 +16219,7 @@ export default {
     },
     {
       "id": 6,
-      "poster": " https://www.bigw.com.au/medias/sys_master/images/images/h79/h8c/10670481997854.jpg",
+      "poster": " https://images.cdn3.buscalibre.com/fit-in/360x360/84/0d/840d6cbbaa2493a13b1e31be5dacd326.jpg",
       "title": "Harry Potter and the Half-Blood Prince",
       "releaseDay": "July 16, 2005",
       "author": "J. K. Rowling",

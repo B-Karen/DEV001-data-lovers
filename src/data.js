@@ -10,7 +10,7 @@
 
 
 export const filterCasas = (data, casa) => {
-    const filtro = data.filter(data => data.house === casa)
+    const filtro = data.filter(element => element.house === casa);
     return filtro;
 }
 //  export const anotherExample = () => {

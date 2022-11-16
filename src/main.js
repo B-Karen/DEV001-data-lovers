@@ -1,22 +1,22 @@
 import data from './data/harrypotter/data.js';
-
-
-//import{filterCasas} from './data.js'
-//const libros =  document.getElementById("book")
-
+const todosLibros=document.getElementById("libro-boton");
+const persons= document.getElementById("characters");
+const contenedor =document.getElementById("contenedor");
+import{filterCasas} from './data.js'
 
 // Mostar saga de los libros
  const saga = data.books
-//console.log(filtro) 
+//Mostrar libros
 
-  const show =(saga)=>{
-   saga.forEach(books => {
-    document.getElementById("libro").innerHTML+=
+  const showBooks =(books)=>{
+  contenedor.innerHTML="";
+   books.forEach(book=> {
+    contenedor.innerHTML+=
     `<div class="portada" >
-        <img src="${books.poster}" alt="">
+        <img src="${book.poster}" alt="">
         <div class="letras">
-        <h2> ${books.title}</h2>
-        <p> ${books.releaseDay}</p>
+        <h2> ${book.title}</h2>
+        <p> ${book.releaseDay}</p>
         </div>
         <div class="boton">
         <button class="click" id="b1"> View More </button>
@@ -26,50 +26,61 @@ import data from './data/harrypotter/data.js';
    })
   }
   
- show(saga);
-
+ showBooks(saga);
  
- document.getElementById("characters").addEventListener("click", ()=>  {  
-  const personajes= data.characters;
-   name.innerHTML+=
- `<div class"personaje">
- <h2>${personajes.name}</h2></div>`
-  
-     }
-  
-  )
-
-
-
-// declaras una variable
-
-//  saga.forEach(title => (title.title) )
- 
-//  console.log(saga)
+// Funcion para recoorer los personajes
+const showCharacters =(characters)=>{
+  contenedor.innerHTML="";
+    characters.forEach(character => {
+     contenedor.innerHTML+=
+     
+     `<div class="tarjeta-personajes">
+     <div class="letras-personajes">  
+     <h2> ${character.name} </h2>
+      <p>${character.house}</p>
+      <p>${character.species}</p>
+      </div>
+      </div>`  
+    })
+   }
    
-   //Aqui 
+   // Mostrar los personajes al hacer click
+ persons.addEventListener("click", ()=>  { 
+  const personajes= data.characters;
+  showCharacters(personajes)
+ })
+  //Mostar los libros 
+todosLibros.addEventListener("click",() => {
+showBooks(saga);
+})
+ 
+ const todasCasas= document.querySelectorAll(".casa-indi") ;
+ todasCasas.forEach((c =>{
+c.addEventListener("click", ()=>{
+  contenedor.innerHTML="";
+  const showHouse= filterCasas(data.characters,c.id);
+  showCharacters(showHouse);
+});
 
+
+}));
+ //select.addEventListener("click",() => {
+ //const filSelec=select.value;
+
+//  console.log(filterCasas(data.characters, filSelec));
+//  })
+// const casas= document.querySelectorAll("menu-casas");
+// showCharacters.forEach(( casa=> {
+//   casa.addEventListener("click", ()=>{
+//     contenedor.innerHTML="";
+//     filterCasas(casas);
+//   })
+// }))
+
+   
  
 
- // asignas la variable al innerHTml
- 
-    //asignas el new libro a la variable 
-//     for(let i = 0; i < books.length; i++) {
-//    libros.innerHTML+= 
-//    `<div class= "portada">
-//    <h2>${ books[i].title} </h2>
-//    <img src="${books[i].poster}" alt="">
-//    <p ${books[i].releaseDay}</p>
-//   </div>  ` 
-//  }
- 
-//books.forEach (title => (title.title))
 
-// function titulos (){
-//     const title= data.title
-//     return ;
-
-//}
  
     
  
