@@ -3,21 +3,55 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header>
+    <div class="contenedor-menu" id="contenedor-menu">
+      <nav class="nav-menu">
+        <ul class="menu-list">
+          <li class="lista-menu"><a href="#" class="" id="libro-boton"> Books</a></li>
 
-  <nav class="bar_menu">
-    <div class="nave_menu">
-        <ul class="menu_options">
-        <li> <a href="#"> BOOKS </a></li>
-        <li> <a href="#"> HOUSES </a></li>
-      </ul>
+          <li class="lista-menu"> <a href="#" class="casas" id="characters"> Characters </a>
+
+            <ul class="sub-menu">
+              <li class="menu-casa"> <a href="#" id="Gryffindor" class="casa-indi"> Gryffindor </a></li>
+
+              <li class="menu-casa"> <a href="#" id="Slytherin" class="casa-indi"> Slytherin </a></li>
+
+              <li class="menu-casa"><a href="#" id="Ravenclaw" class="casa-indi"> Ravenclaw </a></li>
+
+              <li class="menu-casa"><a href="#" id="Hufflepuff" class="casa-indi"> Hufflepuff </a> </li>
+            </ul>
+          </li>
+          <li class="lista-menu"><a href="#" id="spells"> Spells </a>
+            <ul class="orden">
+              <li class="menu-orden"><a href="#" id="A-Z" class="ordenA"> A-Z </a></li>
+              <li class="menu-orden"><a href="#" id="Z-A" class="ordenA"> Z-A </a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
+
     </div>
-  </nav>
 
+  </header>
+  <section>
+    <div class="container">
+      <div class="libros" id="contenedor">
+
+      </div>
+    </div>
+  </section>
+  <section class="filtro-data">
+    <div class="todofiltro" id="filtra">
+
+    </div>
+  </section>
 
   <div id="root"></div>
   <script src="main.js" type="module"></script>
