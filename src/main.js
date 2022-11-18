@@ -2,10 +2,15 @@ import data from './data/harrypotter/data.js';
 const todosLibros=document.getElementById("libro-boton");
 const persons= document.getElementById("characters");
 const contenedor =document.getElementById("contenedor");
-import{filterCasas} from './data.js'
+//const ordena=document.getElementById("ordena");
+const hechizos=document.getElementById("spells");
+const aZ =document.getElementById("A-Z");
+const zA=document.getElementById("Z-A");
+import{filterCasas,ordenar,ordenInv} from './data.js'
 
 // Mostar saga de los libros
  const saga = data.books
+
 //Mostrar libros
 
   const showBooks =(books)=>{
@@ -23,12 +28,12 @@ import{filterCasas} from './data.js'
       </div>
         </div>`
     
-   })
-  }
+   });
+  };
   
  showBooks(saga);
  
-// Funcion para recoorer los personajes
+// Funcion para recorrer los personajes
 const showCharacters =(characters)=>{
   contenedor.innerHTML="";
     characters.forEach(character => {
@@ -41,19 +46,43 @@ const showCharacters =(characters)=>{
       <p>${character.species}</p>
       </div>
       </div>`  
-    })
-   }
+    });
+   };
+
+
+const showSpells=(spells)=>{
+  contenedor.innerHTML="";
+  spells.forEach(spell=>{
+    contenedor.innerHTML+=`<div class="hechizos">
+    <div class="letras-hechizos">
+    <h2>  ${spell.name }</h2>
+    <p>${spell.spell_type}</p>
+    </div>
+    </div>`
+    
+  });
+};
+
+//mostrar hechizos al hacer click
+ hechizos.addEventListener("click",()=>{
+ const hechizo=data.spells;
+  showSpells(hechizo);
+ })
+
+
+  //Mostar los libros 
+  todosLibros.addEventListener("click",() => {
+    showBooks(saga);
+    });
    
    // Mostrar los personajes al hacer click
  persons.addEventListener("click", ()=>  { 
   const personajes= data.characters;
   showCharacters(personajes)
- })
-  //Mostar los libros 
-todosLibros.addEventListener("click",() => {
-showBooks(saga);
-})
- 
+ });
+
+
+//filtrado por casa
  const todasCasas= document.querySelectorAll(".casa-indi") ;
  todasCasas.forEach((c =>{
 c.addEventListener("click", ()=>{
@@ -64,6 +93,27 @@ c.addEventListener("click", ()=>{
 
 
 }));
+
+aZ.addEventListener("click",()=>{
+  contenedor.innerHTML="";
+  const ordenAlf=ordenar(data.spells);
+  showSpells(ordenAlf);
+});
+
+
+zA.addEventListener("click",()=>{
+  contenedor.innerHTML="";
+  const ordenaAl=ordenInv(data.spells);
+  showSpells(ordenaAl);
+});
+//Mostrar por Orden alfabetico con sort
+// ordena.addEventListener("click", () =>{
+//   contenedor.innerHTML=""
+//   const ordenAlf= ordenar(data.characters);
+//   showCharacters(ordenAlf);
+// });
+
+
  //select.addEventListener("click",() => {
  //const filSelec=select.value;
 
