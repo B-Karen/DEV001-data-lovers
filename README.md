@@ -174,13 +174,6 @@ iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
 
 
 
-#### Testeos de usabilidad
-
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
-en base a los resultados, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
-mejoraste en tu propuesta final.
-
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
 Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
@@ -196,16 +189,6 @@ Como mínimo, tu implementación debe:
    tamaños de pantallas: móviles, tablets y desktops.
 4. Que la interfaz siga los fundamentos de _visual design_.
 
-### Pruebas unitarias
-
-El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
-que  tendrás que escribirlas tú para las funciones encargadas de  _procesar_,
-_filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
-
-Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
-(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
-en la sección de [Consideraciones técnicas](#srcdatajs).
 
 ## 6. Hito Opcional
 
