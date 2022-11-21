@@ -12,7 +12,6 @@ import{filterCasas,ordenar,ordenInv} from './data.js'
  const saga = data.books
 
 //Mostrar libros
-
   const showBooks =(books)=>{
   contenedor.innerHTML="";
    books.forEach(book=> {
@@ -49,7 +48,7 @@ const showCharacters =(characters)=>{
     });
    };
 
-
+//Funcion de hechizos
 const showSpells=(spells)=>{
   contenedor.innerHTML="";
   spells.forEach(spell=>{

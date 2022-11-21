@@ -117,9 +117,7 @@ Los criterios para considerar que has completado este proyecto son:
 
 ### Definición del producto
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
+Cree un diseño pensando en diferentes usuarios desde el principiante hasta un usuario mas avanzado
 
 ### Historias de usuario
 
