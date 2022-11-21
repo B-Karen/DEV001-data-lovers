@@ -27,11 +27,6 @@ grandes cantidades de datos se conviertan en **información** fácil de leer par
 los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
 hacerlo es creando _interfaces_ y _visualizaciones_.
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por el usuario
-al lado derecho.
-
-![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
 
 ## 2. Resumen del proyecto
 
@@ -117,7 +112,11 @@ Los criterios para considerar que has completado este proyecto son:
 
 ### Definición del producto
 
-Cree un diseño pensando en diferentes usuarios desde el principiante hasta un usuario mas avanzado
+Cree un diseño pensando en diferentes usuarios desde el principiante hasta un usuario mas avanzado, para el primer UH se creo una vista donde se pudieran oberser todos los libros de la saga completa de Harry Potter y con fecha de publicacion
+
+Para un usuario que quisiera ir iun poco mas alla, los personajes de la saga, filtrandose por las diferentes casas del Colegio 
+
+Luego conocer los hechizos de manera ordenada, desde los ordenados de la A-Z o de Z-A
 
 ### Historias de usuario
 
@@ -170,17 +169,10 @@ iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
 `README.md`.
 
 #### Prototipo de alta fidelidad
+![image]![Prototipo alta fidelidad](https://user-images.githubusercontent.com/111467421/203110923-31fe4934-16d4-4208-8416-416162a4541a.PNG)
+(https://user-images.githubusercontent.com/111467421/203110618-a33d2814-ad60-424b-a58b-04243fa7c360.png)
 
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
-_User Interface_). Para eso debes aprender a utilizar alguna herramienta de
-diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
-una herramienta que funciona en el navegador y, además, puedes crear una cuenta
-gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc.
 
-El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para trabajar. Además, tu
-diseño debe seguir los fundamentos de _visual design_.
 
 #### Testeos de usabilidad
 
@@ -656,3 +648,4 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
  * [ ] El proyecto será entregado subiendo tu código a GitHub.
  * [ ] La interfaz será "desplegada" usando GitHub Pages.
  * [ ] El README contiene una definición del producto e Historias de Usuario.
+![WhatsApp Image 2022-11-21 at 2 19 34 PM](https://user-images.githubusercontent.com/111467421/203119734-eba574fe-b640-4ffb-9bb8-b284418cbafe.jpeg)
